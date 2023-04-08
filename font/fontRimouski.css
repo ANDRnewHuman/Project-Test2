@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Helomade';
+    src: url('Helomade-Regular.woff2') format('woff2'),
+        url('Helomade-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rimouski Rg';
+    src: url('RimouskiRg-Bold.woff2') format('woff2'),
+        url('RimouskiRg-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rimouski Rg';
+    src: url('RimouskiRg-Regular.woff2') format('woff2'),
+        url('RimouskiRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rimouski Sb';
+    src: url('RimouskiSb-Regular.woff2') format('woff2'),
+        url('RimouskiSb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
