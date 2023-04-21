@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Rimouski Rg';
+    font-family: 'Rimouski';
     src: url('RimouskiRg-Bold.woff2') format('woff2'),
         url('RimouskiRg-Bold.woff') format('woff');
     font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'Rimouski Rg';
+    font-family: 'Rimouski';
     src: url('RimouskiRg-Regular.woff2') format('woff2'),
         url('RimouskiRg-Regular.woff') format('woff');
     font-weight: normal;
@@ -26,11 +26,10 @@
 }
 
 @font-face {
-    font-family: 'Rimouski Sb';
+    font-family: 'Rimouski';
     src: url('RimouskiSb-Regular.woff2') format('woff2'),
         url('RimouskiSb-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-

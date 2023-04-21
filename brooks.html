@@ -43,11 +43,59 @@
                   <a href="" class="del-decor nav-font">Contacts</a>
                 </li>
               </ul>
-              <div>
+              <div class="button-header-brooks">
                 <button type="button" class="nav-button">Contact us</button>
               </div>
             </nav>
+            <!-- modal -->
+            <button
+              type="button"
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg width="30" height="20">
+                <use
+                  class="icon-burger"
+                  href="./image/sprite4.svg#icon-burger"
+                ></use>
+              </svg>
+            </button>
+            <!-- ///////// -->
           </header>
+          <!-- modal -->
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle-close js-close-menu">
+              <svg class="menu-mobile-close-icon" width="8" height="8">
+                <use href="./image/sprite4.svg#icon-vector"></use>
+              </svg>
+            </button>
+
+            <ul class="list">
+              <li class="mobile-menu-item">
+                <a href="" class="del-decor mobile-nav-link">Schemes</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="del-decor mobile-nav-link">Resources</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="del-decor mobile-nav-link color-link"
+                  >About us</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="del-decor mobile-nav-link color-link"
+                  >Social responsibility</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="del-decor mobile-nav-link color-link"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- ////////////////// -->
           <div class="position-SVG-h">
             <h1 class="title-hero">BROOKS</h1>
             <h2 class="title-hero-h2">Braithwaite ltd</h2>
@@ -56,30 +104,31 @@
             </svg>
           </div>
           <div class="position-p-hero">
-            <p class="p-hero">Reliable and flexible animal insurance</p>
-            <svg width="78" height="83" class="img-arrow-hero">
-              <use href=""></use>
-            </svg>
-
-            <img
-              src="./image/Click here.png"
-              alt="click here"
-              class="img-compani-hero"
-            />
-            <svg width="28" height="31" class="img-line-p">
-              <use href="./image/sprite.svg#icon-4"></use>
-            </svg>
-            <img src="./image/Vector 10.png" alt="" class="img-line-sprite" />
+            Reliable and flexible animal insurance
           </div>
           <img src="./image/21 1.png" alt="dog" class="img-position-hero" />
-          <button type="button" class="btn-hero">Learn more</button>
+          <div class="section-hero__button">
+            <button type="button" class="btn-hero">Learn more</button>
+
+            <div class="svg-hidden">
+              <img
+                src="./image/Click here.png"
+                alt="click here"
+                class="img-compani-hero"
+              />
+              <svg width="28" height="31" class="img-line-p">
+                <use href="./image/sprite.svg#icon-4"></use>
+              </svg>
+              <img src="./image/Vector 10.png" alt="" class="img-line-sprite" />
+            </div>
+          </div>
         </div>
       </section>
       <!-- information -->
       <section class="section-inform-padding">
         <div class="conteiner">
           <h2 class="title-inform">Types of insurance</h2>
-          <div>
+          <div class="ul-conteiner">
             <ul class="flex-section-inform">
               <li class="options-li">
                 <img
@@ -92,16 +141,14 @@
                   alt="hamster"
                   class="img-hamster-inform"
                 />
-                <div class="div-link-inform"></div>
+
                 <p class="options-inform-p">
                   Pet Insurance for Birds, Mammals and Reptiles
                 </p>
-                <div class="div-link-inform"></div>
-                <a href="./ExoticDirect.html"
-                  ><button type="button" class="btn-inform">
-                    View detalis
-                  </button></a
-                >
+
+                <a href="./ExoticDirect.html" class="btn-inform">
+                  View detalis
+                </a>
               </li>
               <li class="options-li">
                 <img
@@ -114,11 +161,11 @@
                   alt="dog"
                   class="img-hamster-inform"
                 />
-                <div class="div-link-inform"></div>
+
                 <p class="options-inform-p">
                   Insurance for the Pet Care Professional
                 </p>
-                <div class="div-link-inform"></div>
+
                 <button type="button" class="btn-inform">View detalis</button>
               </li>
               <li class="options-li">
@@ -132,11 +179,11 @@
                   alt="hamster"
                   class="img-hamster-inform"
                 />
-                <div class="div-link-inform"></div>
+
                 <p class="options-inform-p">
                   Liability Insurance for Animal Related Activities
                 </p>
-                <div class="div-link-inform"></div>
+
                 <button type="button" class="btn-inform">View detalis</button>
               </li>
             </ul>
@@ -146,21 +193,26 @@
       <!-- customers -->
       <section class="bagraund-section-customs">
         <div class="conteiner section-options-customs">
-          <h2 class="title-customs">Love implies responsibility!</h2>
-          <svg width="58" height="64" class="position-img-customs">
-            <use href="./image/sprite.svg#icon-5"></use>
-          </svg>
-          <p class="customers-p">
-            We know how much you care about your pets because we love ours, too.
-            They are totally dependent on our love and care, so it is up to us
-            to take care of their future.
-          </p>
-          <p class="customers-p">
-            Our company has been offering pet insurance services to individuals
-            and businesses for over 35 years. We offer many flexible coverage
-            options with a variety of options to help you take care of your
-            pet's future on favorable terms.
-          </p>
+          <div class="position-media-546">
+            <h2 class="title-customs">Love implies responsibility!</h2>
+            <svg width="58" height="64" class="position-img-customs">
+              <use href="./image/sprite.svg#icon-5"></use>
+            </svg>
+          </div>
+          <div class="customers-text">
+            <p class="customers-p">
+              We know how much you care about your pets because we love ours,
+              too. They are totally dependent on our love and care, so it is up
+              to us to take care of their future.
+            </p>
+            <p class="customers-p">
+              Our company has been offering pet insurance services to
+              individuals and businesses for over 35 years. We offer many
+              flexible coverage options with a variety of options to help you
+              take care of your pet's future on favorable terms.
+            </p>
+          </div>
+
           <img
             src="./image/cockatiel.png"
             alt="cockatiel"
@@ -301,7 +353,8 @@
       <section class="background-mops">
         <div class="conteiner center-sections-mops">
           <h2 class="title-mops">
-            With us you will take care of more than just pets!
+            With us you will take care <br />
+            of more than just pets!
           </h2>
           <p class="text-mops">
             We are a socially responsible company, so we support charitable
@@ -328,6 +381,7 @@
                 <img
                   src="./image/pleased-female-carries-her-favourite-dog-drinks-h-2022-01-18-23-33-46-utc 1.png"
                   alt="people and dog"
+                  class="img-width"
                 />
                 <div class="div-block-letest">
                   <h3 class="title-li-list-letest">
@@ -349,6 +403,7 @@
                 <img
                   src="./image/work-of-vet-2021-09-24-03-31-38-utc 2.png"
                   alt="people and dog"
+                  class="img-width"
                 />
                 <div class="div-padding-li-letest">
                   <p class="p-data-letest">Aug 8, 2022</p>
@@ -362,6 +417,7 @@
                 <img
                   src="./image/pexels-tiá»_u-báº£o-trÆ°Æ¡ng-10502520 3.png"
                   alt="tia"
+                  class="img-width"
                 />
                 <div class="div-padding-li-letest">
                   <p class="p-data-letest">Aug 8, 2022</p>
@@ -375,6 +431,7 @@
                 <img
                   src="./image/pexels-moliv-diary-13211623 3.png"
                   alt="cat"
+                  class="img-width"
                 />
                 <div class="div-padding-li-letest">
                   <p class="p-data-letest">Aug 8, 2022</p>
@@ -388,6 +445,7 @@
                 <img
                   src="./image/pexels-pavel-danilyuk-7055930 1.png"
                   alt="girls and dog"
+                  class="img-width"
                 />
                 <div class="div-padding-li-letest">
                   <p class="p-data-letest">Aug 8, 2022</p>
@@ -402,13 +460,13 @@
         </div>
       </section>
       <!-- contact -->
-      <section class="bagraund-section-customs">
+      <section class="bagraund-section-contact">
         <div class="conteiner section-options-customs">
           <h2 class="title-customs">
             Contact us to find out more about your possibilities
           </h2>
           <button type="button" class="btn-customs">Contact us</button>
-          <svg width="58" height="64" class="position-img-customs">
+          <svg width="58" height="64" class="position-img-contact">
             <use href="./image/sprite.svg#icon-5"></use>
           </svg>
           <img
@@ -451,24 +509,33 @@
           </ul>
         </nav>
         <div class="flex-footer">
-          <div>
-            <ul class="">
+          <div class="position-svg">
+            <ul>
               <li class="li-footer">
                 <a href="tel:0345 982 5499" class="del-decor decor-href"
                   >0345 982 5499</a
                 >
-                <!-- <svg width="20" height="18">
-                  <use href="./image/sprite-footer.svg#icon-telefon"></use>
-                </svg> -->
               </li>
               <li class="li-footer">
                 <a
                   href="mailto:enquiries@brooksbraithwaite.com"
-                  class="del-decor decor-href"
+                  class="del-decor decor-href telefon"
                   >enquiries@brooksbraithwaite.com</a
                 >
               </li>
             </ul>
+            <div class="footer__social">
+              <a href="#">
+                <svg width="20" height="20" class="position-footer-svg">
+                  <use href="./image/sprite-footer.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="20" height="20" class="position-footer-svg">
+                  <use href="./image/sprite-footer.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </div>
           </div>
           <div class="text-footer">
             <p class="p-text-footer">
@@ -491,5 +558,6 @@
         </div>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
